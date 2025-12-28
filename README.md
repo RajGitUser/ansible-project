@@ -1,27 +1,11 @@
-📦 ansible-project
+# ansible-project
 
 A collection of Ansible automation playbooks, inventory, and configuration files to automate the provisioning and configuration of application services and their dependencies.
 
 This repository helps you deploy microservices (e.g., catalogue, cart, payment, shipping, user), databases, and infrastructure components using Ansible. 
 GitHub
 
-📌 Table of Contents
-
-About
-
-Repository Structure
-
-Prerequisites
-
-Usage
-
-Playbooks & Configurations
-
-Contributing
-
-License
-
-🧠 About
+# 🧠 About
 
 This repository contains Ansible playbooks, inventory definitions, and configuration templates that automate the deployment and setup of services, databases, and related infrastructure settings.
 It can be used to standardize deployments, reduce manual configuration effort, and ensure consistent environments across systems. 
@@ -46,7 +30,7 @@ Before running these playbooks, make sure:
 
 ## 🚀 Usage
 
-### 1. Clone the Repository
+1. Clone the Repository
 
 ```bash
 git clone https://github.com/RajGitUser/ansible-project.git
@@ -84,7 +68,7 @@ mysql.yaml	                    Setup MySQL
 mongo.repo,                     rabbitmq.repo	Repo configs for packages
 *.service	                      Systemd service definitions for each microservice
 nginx.conf	                    NGINX configuration template
-🤝 Contributing
+
 
 Contributions are welcome! To improve this project:
 
